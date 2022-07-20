@@ -1,5 +1,5 @@
 FROM centos:latest
-RUN yum istall java -y
+RUN yum install java -y
 RUN mkdir /opt/tomcat
 WORKDIR /opt/tomcat
 ADD https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.22/bin/apache-tomcat-10.0.22.tar.gz .
